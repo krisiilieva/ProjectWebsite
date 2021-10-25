@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Scheherazade New', serif;
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo{
+    color: blanchedalmond;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0;
+}
+
+nav ul li a{
+    color: blanchedalmond;
+    font-size: 1rem;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    color: #bfca1d;
+    transition: 0.5s;
+
+}
+
+.checkbtn{
+    font-size: 31px;
+    color: blanchedalmond;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media(max-width: 768px){
+    label.logo{
+        font-size: 31px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 852px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 78px;
+        left: -100%;
+        background-color: #1f2831;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 0;
+        line-height: 41px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background-color: none;
+        color: #a1a321;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+}
+
+.dog_pic {
+    width: 1519px;
+    height: 900px;
+}
+.icons img{
+    width: 60px;
+    height: 50px;
+
+}
+.icons{
+    display: flex;
+}
+
+.logo_page{
+    margin-right:50px ;
+    width: 60px;
+}
+
+.headersec{
+display: flex;
+justify-content: space-between;
+
+}
+.kristinlogo {
+    width: 70rem;
+}
+
+.authors_heading{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 600px;
+    font-size: 5rem;
+    margin-bottom: 90px ;
+}
+            /*pictures of the authors*/
+.Eliott_E{
+    width: 300px;
+    height: 350px;
+    margin-left: 100px;
+}
+.Alex_Webb{
+    width: 300px;
+    height: 350px;
+    margin-left: 200px;
+    
+}
+.Abbas{
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+}
+.B_Gilden{
+    width: 300px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.Susan_S{
+    width: 400px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.Thomas_Dworzak {
+    width: 300px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+      /*About us section*/
+
+
+      .aboutus{
+          position: relative;
+          left: 600px;
+          top: 80px;
+          color: blanchedalmond;
+          font-size: 100px;
+
+      }
+.inf{
+    position: relative ;
+    left: 650px;
+    font-size: 40px;
+}
+.info {
+    margin-bottom: 200px;
+    margin-left: 770px;
+}
+.information_card{
+    border: 2px solid black;
+    position: relative;
+    bottom: 200px;
+    background-color: grey;
+}
+ .snimki_flexbox {
+     display: flex;
+     justify-content: space-around;
+ }
+ .text_flexbox {
+    display: flex;
+    justify-content: space-around;
+
+ }
+.abme {
+    margin-left: 200px;
+    margin-right: 840px;
+    
+}
+.toi {
+    margin-left: 800px;
+    margin-top: 200px;
+
+}
+.az {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px ;
+   margin-top: 100px;
+   margin-right: 1000px;
+}
+.dog{
+    width: 1519px;
+    height: 900px;
+    margin-bottom: 50px;
+    position:relative;
+    bottom: 200px;
+    
+}
+/*portfolio*/
+.portfolio {
+    margin-left: 700px;
+    font-size: 40px;
+}
+.durveta{
+    width: 1519px;
+    height: 800px;
+}
+.cat{
+    width: 1519px;
+    height: 800px;
+    margin-top: 0.5px;
+
+}
+.dog_tram{
+    width: 1519px;
+    height: 800px;
+    margin-top: 0.5px;
+}
+.idk{
+    width: 500px;
+    height: 800px;
+    margin-top: 0.5px;
+    margin-left: 200px;
+}
+.hiena{
+    width: 500px;
+    height: 800px;
+    margin-top: 0.5px;
+    margin-left: 0px;
+}
+.dogsnow{
+    width: 1519px;
+    height: 1000px;
+    margin-top: 0.5px;
+}
+/*eliott page*/
+
+.eliotttitle{
+    position: relative;
+    left: 600px;
+}
+.elioterwitt{
+    
+    width: 400px;
+    height: 450px;
+    margin-left: 50px;
+ 
+}
+.member{
+    margin-left: 100px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.el_ew {
+    display: flex;
+}
+.ew_content{
+    font-size: 30px;
+    margin-left: 3px;
+}
+.ew_card{
+    border: 2px solid black;
+    
+}
+
+.photos{
+    position: relative;
+    left: 600px;
+}
+/*most known photos*/
+
+.dogheads{
+    width: 800px;
+    height: 550px;
+    margin-left: 300px;
+}
+
+.legs{
+    margin-left: 200px;
+}
+
+.lostarea{
+    width: 700px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.wallpics {
+    width: 690px;
+    height: 498px;
+}
+
+/*series*/
+
+.series {
+    position: relative;
+    left: 730px;
+}
+.seriess {
+    display: flex;
+}
+.bookdogs {
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+}
+.best_p {
+margin-left: 280px;
+}
+.seriess_card {
+    border: 2px solid black;
+}
+.year {
+    margin-top: 0px;
+    margin-left: 200px;
+}
+.mistery {
+    width: 700px;
+    height: 500px;
+    margin-left: 800px;
+    margin-bottom: 400px;
+    
+}
+
+.mistery_couples{
+    position: relative;
+    left: 1100px;
+
+}
+.theyear {
+    position: relative;
+    left:1050px ;
+    bottom: 405px;
+}
+
+
+.seeart_card {
+    border: 2px solid black;
+    
+}
+.theart {
+    position: relative;
+    top: 50px;
+    left: 300px;
+
+}
+.artlookart {
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.years {
+    position: relative;
+    left: 130px;
+}
+.dogbook {
+    width: 600px;
+    height: 400px;
+    margin-left: 500px;
+}
+
+.edogs {
+    position: relative;
+    left: 40px;
+}
+
+/*inspiration*/
+.titleins_flexbox {
+    margin-top: 50px;
+}
+.titleins_content {
+    position: relative;
+    left: 600px;
+    font-size: 40px;
+   
+}
+.titleins_card {
+    border: 2px solid black;
+}
+.video_content {
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+
+.video_flexbox {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.video_card {
+    border: 2px solid black;
+}
+.vi {
+    margin-right: 40px;
+}
+.vid {
+    margin-left: 50px;
+}
+.video {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.sv {
+    width: 800px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.svi {
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.svil {
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.svilen {
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.svilenski {
+    margin-left: 650px;
+}
+.svilka {
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.absv {
+    margin-left: 20px;
+}
+.aboutsv {
+    margin-left: 20px;
+}
